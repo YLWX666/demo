@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            var d = document.getElementById("a");
+            //将事件属性和一个函数关联，函数不能写小括号，写了会马上执行
+            alert("success");
+            d.onclick =function(){
+            var c = document.getElementById("app");
+            c.style.color = "red";
+            c.style.fontSize = "30px";
+            c.innerText = "JAVASCRIPT";
+        }
+            }
+
+    </script>
+</head>
+<body>
+    <div id="app">财务报表分析</div>
+    <input type="button" id="a" value="点击" >
+</body>
+</html>

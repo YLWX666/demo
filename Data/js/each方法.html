@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jQ/jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            var $a = $('.list li');
+            var $b = {'one':1,'two':2,'three':3};
+            $a.each(function(i,value){
+                alert(i);
+                console.log(value);
+                // alert($(this).html())
+            });
+            $.each($b,function(i,value){
+                alert(i,value);
+            })
+
+
+        })
+
+
+    </script>
+</head>
+<body>
+    <!--ul.list>li{$}*8-->
+    <ul class="list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+
+</body>
+</html>

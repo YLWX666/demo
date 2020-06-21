@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绑定事件</title>
+</head>
+<script type="text/javascript" src="jQ/jquery-1.12.4.js"></script>
+<script type="text/javascript">
+
+    $(function(){
+        $('#btn').bind('click mouseover',function(){
+
+            alert('click事件');
+        })
+    })
+
+</script>
+
+
+<body>
+<input type="button" name="" value="按钮" id="btn">
+</body>
+</html>

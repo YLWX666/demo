@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click</title>
+    <script type="text/javascript" src="jQ/jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#butn').click(function () {
+                $('#bui').css({'color':'red'});
+                alert('很高兴认识你哦');
+            });
+        function test() {
+            alert('464464646');
+        }
+
+        })
+
+
+    </script>
+
+
+</head>
+<body>
+<input type="button" id="butn" value="点击1">
+<input type="button" id="b" value="点击2" onclick="test()">
+
+<div id="bui">财务报表分析从入门到精通</div>
+</body>
+</html>

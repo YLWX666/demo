@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>索引值</title>
+    <script type="text/javascript" src="jQ/jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $a = $('.list li').eq(2);
+            alert($a);
+            // var $c = $('.list li').filter('.myli');
+            // alert($c.index());
+        });
+
+    </script>
+
+
+</head>
+<body>
+    <div id="app">
+        <!--ul.list${li}*8-->
+        <!--ul.list>li{$}*8-->
+        <ul class="list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li class="myli">5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+        </ul>
+    </div>
+</body>
+</html>

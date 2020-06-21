@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jQ/jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var $link = $('.link');
+            console.log($link.prop('class'));
+            $link.prop({'href':'https://www.baidu.com'});
+            console.log($link.prop('href'));
+            console.log($link.html());
+            var $a = $('.abv');
+            console.log($a.html());
+            console.log($a.text());
+
+        })
+
+
+    </script>
+</head>
+<body>
+<a href="#" class="link">这是一个链接</a>
+<div class="abv">
+    <span>
+        小伙子很帅
+    </span>
+</div>
+</body>
+</html>

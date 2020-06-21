@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        /*.btns input{*/
+            /*width:100px;*/
+            /*height:40px;*/
+            /*background: #ddd;*/
+            /*border:0;*/
+
+        /*}*/
+        /*.btns .current{*/
+            /*background-color:gold;*/
+
+        /*}*/
+        /*.cons .slide div{*/
+            /*width:500px;*/
+            /*height:300px;*/
+            /*background-color:gold;*/
+            /*float:left;*/
+            /*text-align:center;*/
+            /*line-height: 300px;*/
+        /*}*/
+        /*.cons .active{*/
+            /*display:block;*/
+        /*}*/
+        /*.slide{*/
+            /*width:1500px;*/
+            /*height:300px;*/
+            /*position: absolute;*/
+            /*left:0;*/
+            /*top:45px;*/
+        /*}*/
+        /*.cons{*/
+            /*width:500px;*/
+            /*height:300px;*/
+            /*overflow:hidden;*/
+        /*}*/
+        .btns input{
+			width:100px;
+			height:40px;
+			background-color:#ddd;
+			border:0;
+			outline:none;
+		}
+		.btns .current{
+			background-color:gold;
+		}
+		.cons{
+			width:500px;
+			height:300px;
+			overflow:hidden;
+			position:relative;
+		}
+		.slides{
+			width:1500px;
+			height:300px;
+			position:absolute;
+			left:0;
+			top:0;
+		}
+		.cons .slides div{
+			width:500px;
+			height:300px;
+			background-color:gold;
+			text-align:center;
+			line-height:300px;
+			font-size:30px;
+			float:left;
+		}
+
+		.cons .active{
+			display: block;
+        }
+    </style>
+    <script type="text/javascript" src="jQ/jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            var $btn = $('.btns input');
+            var $slides = $('.cons .slides');
+            $btn.click(function () {
+                $(this).addClass('current').siblings().removeClass('current');
+                $slides.stop().animate({'left':-500*$(this).index()})
+            })
+
+        })
+    </script>
+</head>
+<body>
+    <!--<div class="btns">-->
+        <!--<input type="button" name="" value="01" class="current">-->
+        <!--<input type="button" name="" value="02">-->
+        <!--<input type="button" name="" value="03">-->
+
+    <!--</div>-->
+    <!--<div class="cons">-->
+        <!--<div class="slide">-->
+            <!--<div class="active">选项卡一的内容</div>-->
+            <!--<div>选项卡二的内容</div>-->
+            <!--<div>选项卡三的内容</div>-->
+        <!--</div>-->
+    <!--</div>-->
+	<div class="btns">
+		<input type="button" name="" value="01" class="current">
+		<input type="button" name="" value="02">
+		<input type="button" name="" value="03">
+	</div>
+	<div class="cons">
+		<div class="slides">
+			<div>选项卡一的内容</div>
+			<div>选项卡二的内容</div>
+			<div>选项卡三的内容</div>
+		</div>
+	</div>
+</body>
+</html>

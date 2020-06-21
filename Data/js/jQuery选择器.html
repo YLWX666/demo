@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="jQ/jquery-1.12.4.js"></script>
+    <script>
+        $(function()
+        {
+            var $a = $("#app");
+            $a.css({'color': 'red'});
+            $a.css({'fontSize': '30px'});
+            var $b = $('.box');
+            $b.css({'color': 'green'});
+            $('div').not('#app').css({'font-size':'60px'});
+            $('div').filter('.myclass').css({'color':'pink'});
+            alert($b.length);
+
+            var $c = $('.list');
+            $c.css({'background':'pink','color':'green'});
+            $('#po').css({'color':'red'});
+
+            var $g = $('#app').css('font-size');
+            alert($g)
+        });
+    </script>
+</head>
+<body>
+    <div id="app">大哥牛逼</div>
+    <div class="box">你好！大哥</div>
+    <div class="box">六一快乐！</div>
+    <div class="myclass">66666666</div>
+
+    <br>
+    <ul class="list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+    <p id="po">46444684464</p>
+</body>
+</html>

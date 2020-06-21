@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript">
+        window.onload = function(){
+            var a = document.getElementById('div1');
+            var sMystyle = 'fontSize';
+            var sValue = '30px';
+            /*var test = a.innerHTML;*/
+
+
+            /*写元素内容*/
+            a.innerHTML = "死鬼";
+            var test = a.innerHTML;
+            alert(test);
+            a.innerHTML = "<a href='http://www.baidu.com'>百度</a>";
+
+            /*
+            * 属性用变量来代替的话需要用[]来操作
+            * */
+            a.style[sMystyle] = sValue;
+
+        }
+    </script>
+</head>
+<body>
+    <div id="div1">这是一个div元素</div>
+</body>
+</html>
