@@ -1,0 +1,16 @@
+#转盘登录
+-
+  input_element: '//*[@class="cm_email"]'          #输入框元素
+  login: '64484648@qq.com'    #登录账号
+  button: '//*[@class="cm_login"]'
+  index_delete: '//*[@class="cm_close"]' #首页删除标
+  success_log: '//span[@id="pc_account"]/a'  #登录成功标识
+
+-
+  ljjse: 'sefsef'
+
+
+-
+
+
+
