@@ -1,0 +1,86 @@
+#转盘登录新号
+-
+  input_element: '//*[@class="cm_email"]'          #输入框元素
+  login: '64484648@qq.com'                         #登录账号
+  button: '//*[@class="cm_login"]'
+  index_delete: '//*[@class="cm_close"]'           #首页删除标
+  success_log: '//span[@id="pc_account"]/a'        #登录成功标识
+
+#新号页面登录
+-
+  index_delete: '//*[@class="cm_close"]'        #首页删除标
+  sigin_in: '//*[@id="pc_account"]'             #sign in
+  email: '//*[@class="email"][1]'               #邮箱输入
+  email_login: '49464486@qq.com'                #邮箱地址
+  continue: '//*[@value="CONTINUE"]'            #点击登录
+  success_log: '//span[@id="pc_account"]/a'     #登录成功标识
+  delete_log: '//*[@class="closeSet"]'          #删除是否发邮件
+
+#类目页
+-
+  index_delete: '//*[@class="cm_close"]'        #首页删除标
+  optical: 'OPTICAL'
+  blue: 'BLUE LIGHT FILTER'
+  sunglasses: '//*[@id="summer"]'
+  collection: '//*[@id="collection"]'
+  story: 'OUR STORY'
+  serch: '//*[@class="pc_tj_search"]'
+  serch_tijd: '//*[@class="search_msg_top"]/p'
+
+#search功能
+-
+  index_delete: '//*[@class="cm_close"]'
+  input: '//*[@class="search_msg_top"]/div/p/input'
+  error: '//*[@class="pc_input_search"]'
+
+#checkout
+-
+  index_delete: '//*[@class="cm_close"]'
+  prodect: '//a[@class="pc_product_item"]/img'    #选择商品
+  cart: '//div[@class="pc_out_box"]/a'            #加入购物车
+  checkout: '//a[@class="pay checkoutPayNow"]'    #点击checkout
+  email: '//input[@class="input_item"]'           #输入邮箱
+  click: '//*[text()="Checkout"]'                 #任意点击
+
+#checkout_shipping_address
+-
+  customer_email: '//*[@id="Customer_Email"]'             #邮箱
+  first_name: '//*[@class="address_first_name"][1]'       #姓
+  last_name: '//*[@class="address_last_name"][1]'         #名字
+  email: '//*[@class="address_email"]'                    #邮箱
+  country: '//*[@class="edit_country_select"][1]'         #国家
+  city: '//*[@class="edit_state_select"][1]'              #城市
+  address1: '//*[@class="address1 "][1]'                  #街道
+  citys: '//*[@class="adderss_city"][1]'                  #城市
+  code: '//*[@class="address_code"][1]'                   #编编
+  iphone: '//*[@class="address_phone"][1]'                #电话
+
+#facebooklogin
+-
+  facebook: '//*[@class="dailg_login_facebook"]'          #facebook
+  facebook_email: '//*[@id="email_container"]/div/input'  #输入邮箱
+  facebook_password: '//*[@id="pass"]'                    #密码
+  login: '//*[@name="login"]'                             #登录
+  goshopping: '//*[text()="GO SHOPPING"]'                 #shopping
+
+#ing_tag
+-
+  scroll: "window.scrollTo(0,900)"
+  js: "document.getElementsByClassName('instagram_img')[3].click()"
+  tag_text: '//*[text()="TAP TO VIEW PRODUCTS"]'
+  tag: '//*[@class="ins_pic"]/ul/li[1]'
+
+#checkout_billing_address
+- first_name: '//*[@class="address_first_name"]'       #姓
+  last_name: '//*[@class="address_last_name"]'         #名字
+  email: '//*[@class="address_email"]'                 #邮箱
+  country: '//*[@class="edit_country_select"]'         #国家
+  city: '//*[@class="edit_state_select"]'              #城市
+  address1: '//*[@class="address1 "]'                  #街道
+  citys: '//*[@class="adderss_city"]'                  #城市
+  code: '//*[@class="address_code"]'                   #编编
+  iphone: '//*[@class="address_phone"]'                #电话
+
+#Use this address as billing address
+-
+  click: '//*[@class="use_billing"]/span[1]'           #点击不使用this address as billing address

@@ -1,0 +1,163 @@
+1590636919861	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chexi\\AppData\\Local\\Temp\\rust_mozprofileqYwO5z"
+1590636920200	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590636920552	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590636920552	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590636920552	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590636920552	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590636923094	Marionette	INFO	Listening on port 49689
+1590636923489	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tj.uat.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=200309_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.uat.heywind.cn//Scripts/public.common.js?rf=200309_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.uat.heywind.cn/, line 3581: unreachable code after return statement
+JavaScript warning: https://tj.uat.heywind.cn/, line 3581: unreachable code after return statement
+1590636951293	Marionette	INFO	Stopped listening on port 49689
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590644863530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chexi\\AppData\\Local\\Temp\\rust_mozprofilevDFzzH"
+1590644863866	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590644864220	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590644864220	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590644864220	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590644864220	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590644866757	Marionette	INFO	Listening on port 52041
+1590644867170	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tj.uat.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=200309_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.uat.heywind.cn//Scripts/public.common.js?rf=200309_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.uat.heywind.cn/, line 3581: unreachable code after return statement
+JavaScript warning: https://tj.uat.heywind.cn/, line 3581: unreachable code after return statement
+[Child 5944, MediaDecoderStateMachine #1] WARNING: Decoder=27be9805800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 359
+[Child 5944, MediaDecoderStateMachine #1] WARNING: Decoder=27be9805800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+1590644907587	Marionette	INFO	Stopped listening on port 52041
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590644912894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chexi\\AppData\\Local\\Temp\\rust_mozprofileYkS4wd"
+1590644913210	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590644913561	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590644913561	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590644913561	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590644913561	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590644916020	Marionette	INFO	Listening on port 52205
+1590644916507	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tj.uat.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=200309_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.uat.heywind.cn//Scripts/public.common.js?rf=200309_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.uat.heywind.cn/, line 3581: unreachable code after return statement
+JavaScript warning: https://tj.uat.heywind.cn/, line 3581: unreachable code after return statement
+1590644935706	Marionette	INFO	Stopped listening on port 52205
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592561927268	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chexi\\AppData\\Local\\Temp\\rust_mozprofile4q8wxE"
+1592561927619	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592561928000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592561928000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592561928000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592561928000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592561930645	Marionette	INFO	Listening on port 62102
+1592561930886	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tj.qa.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=20200215_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.qa.heywind.cn//Scripts/public.common.js?rf=20200215_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+1592561955450	Marionette	INFO	Stopped listening on port 62102
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592561960501	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chexi\\AppData\\Local\\Temp\\rust_mozprofileJEyItm"
+1592561960852	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592561961220	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592561961220	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592561961220	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592561961220	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592561964086	Marionette	INFO	Listening on port 62252
+1592561964135	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tj.qa.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=20200215_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.qa.heywind.cn//Scripts/public.common.js?rf=20200215_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+[Child 616, MediaDecoderStateMachine #1] WARNING: Decoder=2805a81e000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 359
+[Child 616, MediaDecoderStateMachine #1] WARNING: Decoder=2805a81e000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+1592561986909	Marionette	INFO	Stopped listening on port 62252
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592798164340	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chexi\\AppData\\Local\\Temp\\rust_mozprofilebpy6v8"
+1592798164921	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592798165305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592798165305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592798165305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592798165305	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592798168624	Marionette	INFO	Listening on port 64530
+1592798169106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tj.qa.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=20200215_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.qa.heywind.cn//Scripts/public.common.js?rf=20200215_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+1592798272414	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chexi\\AppData\\Local\\Temp\\rust_mozprofilenX8yH5"
+1592798272749	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592798273099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592798273099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592798273099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592798273099	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592798275451	Marionette	INFO	Listening on port 64721
+1592798275587	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tj.qa.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=20200215_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.qa.heywind.cn//Scripts/public.common.js?rf=20200215_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=20200215_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.qa.heywind.cn//Scripts/public.common.js?rf=20200215_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/joelle-flamingo?int=tjhp_insshop, line 907: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/joelle-flamingo?int=tjhp_insshop, line 907: unreachable code after return statement
+1592804269207	Marionette	INFO	Stopped listening on port 64721
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1592804424978	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\chexi\\AppData\\Local\\Temp\\rust_mozprofileEClZEd"
+1592804425320	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592804425696	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592804425697	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592804425697	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592804425697	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1592804428429	Marionette	INFO	Listening on port 60614
+1592804428591	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://tj.qa.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=20200215_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.qa.heywind.cn//Scripts/public.common.js?rf=20200215_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/, line 3581: unreachable code after return statement
+[Child 15568, MediaDecoderStateMachine #1] WARNING: Decoder=14590d33000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 359
+[Child 15568, MediaDecoderStateMachine #1] WARNING: Decoder=14590d33000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp, line 3367
+JavaScript warning: https://tj.qa.heywind.cn//Themes/DefaultClean/Content/js/jquery-1.10.2.min.js?rf=20200215_1, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tj.qa.heywind.cn//Scripts/public.common.js?rf=20200215_1, line 6: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/joelle-flamingo?int=tjhp_insshop, line 907: unreachable code after return statement
+JavaScript warning: https://tj.qa.heywind.cn/joelle-flamingo?int=tjhp_insshop, line 907: unreachable code after return statement
+[Parent 15404, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1592821871740	Marionette	INFO	Stopped listening on port 60614
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
