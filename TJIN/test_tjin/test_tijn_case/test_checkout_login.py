@@ -30,7 +30,13 @@ class TestCheckOut(unittest.TestCase):
     @ddt.data(*data)
     def test_visitors(self,datas):
         '''新用户合法与非法登录'''
-        self.driver.checkout_visitor(4,datas)
+        self.driver.delete_pan(1)
+        time.sleep(2)
+        self.driver.add_cart()
+        time.sleep(2)
+        self.driver.enter_checkout()
+        self.driver.checkout_visitor(datas['email'])
+        self.driver.click_arb()
         infor = self.judge_element('//p[@class="hint error_text"]')
         self.assertEqual(infor,datas['errorinformation'])
 

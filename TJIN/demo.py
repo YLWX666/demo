@@ -388,81 +388,106 @@ from selenium.webdriver.support.select import Select
 # driver.find_element_by_xpath('//*[@class="ins_pic"]/ul/li').click()
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# driver = webdriver.Chrome()
+# driver.get('https://tj.qa.heywind.cn/')
+# driver.maximize_window()
+# driver.find_element_by_xpath('//*[@class="cm_close"]').click()
+# time.sleep(2)
+# #加入购物车
+# driver.execute_script('window.scrollTo(0,1700)')
+# time.sleep(2)
+# ele = driver.find_elements_by_xpath('//*[@class="product_price_button "]')[5]
+# ele.click()
+# time.sleep(3)
+# #进入checkout页面
+# ele = WebDriverWait(driver,20,2).until(lambda a:a.find_element_by_xpath('//*[text()="CHECKOUT"]'))
+# ele.click()
+# # #填入游客email地址
+# email_info = WebDriverWait(driver,20,2).until(lambda a:a.find_element_by_xpath('//*[@id="Customer_Email"]'))
+# email_info.send_keys('xiong.chen@x.heywind.com')
+# name = driver.find_element_by_xpath('//*[@class="address_first_name"][1]')
+# name.click()
+# driver.implicitly_wait(3)
+# name.send_keys('111111')
+# last_name = driver.find_element_by_xpath('//*[@class="address_last_name"][1]').send_keys('2222')
+# driver.find_element_by_xpath('//*[@class="address_email"][1]').send_keys('646464687@qq.com')
+# time.sleep(2)
+# se = driver.find_element_by_xpath('//*[@class="edit_country_select"][1]')
+# Select(se).select_by_index(1)
+# city = driver.find_element_by_xpath('//*[@class="edit_state_select"][1]')
+# time.sleep(2)
+# Select(city).select_by_value("3")
+# # #地址
+# driver.find_element_by_xpath('//*[@class="address1 "][1]').send_keys('jgpdjhgdjglsjg')
+# driver.find_element_by_xpath('//*[@class="adderss_city"][1]').send_keys('pjgpja')
+# #code
+# driver.find_element_by_xpath('//*[@class="address_code"][1]').send_keys("16468")
+# driver.find_element_by_xpath('//*[@class="address_phone"][1]').send_keys('094646465')
+#
+# time.sleep(2)
+# driver.find_element_by_xpath('//*[@class="use_billing"]/span[1]').click()
+# driver.execute_script('window.scrollTo(0,500)')
+# time.sleep(2)
+# names = driver.find_elements_by_xpath('//*[@class="address_first_name"]')
+# name = names[1]
+# name.send_keys('33333')
+# time.sleep(1)
+# names = driver.find_elements_by_xpath('//*[@class="address_last_name"]')
+# name = names[1]
+# name.send_keys('44444444')
+# time.sleep(1)
+# names = driver.find_elements_by_xpath('//*[@class="address_email"]')
+# name = names[1]
+# name.send_keys('646464687@qq.com')
+# time.sleep(2)
+# se = driver.find_elements_by_xpath('//*[@class="edit_country_select"]')[1]
+# Select(se).select_by_index(1)
+# city = driver.find_elements_by_xpath('//*[@class="edit_state_select"]')[1]
+# time.sleep(2)
+# Select(city).select_by_value("7")
+# # #地址
+# name = driver.find_elements_by_xpath('//*[@class="address1 "]')[1]
+# name.send_keys('fhjyyufjfjfj')
+# time.sleep(1)
+# name = driver.find_elements_by_xpath('//*[@class="adderss_city"]')[1]
+# name.send_keys('yjuytityjd')
+# #code
+# driver.find_elements_by_xpath('//*[@class="address_code"]')[1].send_keys("16468")
+# driver.find_elements_by_xpath('//*[@class="address_phone"]')[1].send_keys('094646465')
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 driver = webdriver.Chrome()
 driver.get('https://tj.qa.heywind.cn/')
 driver.maximize_window()
 driver.find_element_by_xpath('//*[@class="cm_close"]').click()
-time.sleep(2)
+time.sleep(4)
 #加入购物车
 driver.execute_script('window.scrollTo(0,1700)')
-time.sleep(2)
-ele = driver.find_elements_by_xpath('//*[@class="product_price_button "]')[5]
+time.sleep(4)
+ele = driver.find_elements_by_class_name('product_price_button')
+ele = ele[4]
 ele.click()
-time.sleep(3)
+time.sleep(2)
 #进入checkout页面
 ele = WebDriverWait(driver,20,2).until(lambda a:a.find_element_by_xpath('//*[text()="CHECKOUT"]'))
 ele.click()
-#填入游客email地址
-email_info = WebDriverWait(driver,20,2).until(lambda a:a.find_element_by_xpath('//*[@id="Customer_Email"]'))
-email_info.send_keys('3684846@qq.com')
-name = driver.find_element_by_xpath('//*[@class="address_first_name"][1]')
-name.click()
-driver.implicitly_wait(3)
-name.send_keys('111111')
-last_name = driver.find_element_by_xpath('//*[@class="address_last_name"][1]').send_keys('2222')
-driver.find_element_by_xpath('//*[@class="address_email"][1]').send_keys('646464687@qq.com')
 time.sleep(2)
-se = driver.find_element_by_xpath('//*[@class="edit_country_select"][1]')
-Select(se).select_by_index(1)
-city = driver.find_element_by_xpath('//*[@class="edit_state_select"][1]')
+driver.find_element_by_xpath('//*[@class="left"]/a').click()
 time.sleep(2)
-Select(city).select_by_value("3")
-# #地址
-driver.find_element_by_xpath('//*[@class="address1 "][1]').send_keys('jgpdjhgdjglsjg')
-driver.find_element_by_xpath('//*[@class="adderss_city"][1]').send_keys('pjgpja')
-#code
-driver.find_element_by_xpath('//*[@class="address_code"][1]').send_keys("16468")
-driver.find_element_by_xpath('//*[@class="address_phone"][1]').send_keys('094646465')
-
-time.sleep(2)
-driver.find_element_by_xpath('//*[@class="use_billing"]/span[1]').click()
-driver.execute_script('window.scrollTo(0,500)')
-time.sleep(2)
-names = driver.find_elements_by_xpath('//*[@class="address_first_name"]')
-name = names[1]
-name.send_keys('33333')
-time.sleep(1)
-names = driver.find_elements_by_xpath('//*[@class="address_last_name"]')
-name = names[1]
-name.send_keys('44444444')
-time.sleep(1)
-names = driver.find_elements_by_xpath('//*[@class="address_email"]')
-name = names[1]
-name.send_keys('646464687@qq.com')
-time.sleep(2)
-se = driver.find_elements_by_xpath('//*[@class="edit_country_select"]')[1]
-Select(se).select_by_index(1)
-city = driver.find_elements_by_xpath('//*[@class="edit_state_select"]')[1]
-time.sleep(2)
-Select(city).select_by_value("7")
-# #地址
-name = driver.find_elements_by_xpath('//*[@class="address1 "]')[1]
-name.send_keys('fhjyyufjfjfj')
-time.sleep(1)
-name = driver.find_elements_by_xpath('//*[@class="adderss_city"]')[1]
-name.send_keys('yjuytityjd')
-#code
-driver.find_elements_by_xpath('//*[@class="address_code"]')[1].send_keys("16468")
-driver.find_elements_by_xpath('//*[@class="address_phone"]')[1].send_keys('094646465')
-
-
-
-
-
-
-
-
-
+driver.find_element_by_xpath('//*[text()="LEAVE"]').click()
+# email_info = WebDriverWait(driver,20,2).until(lambda a:a.find_element_by_xpath('//*[@id="Customer_Email"]'))
+# email_info.send_keys('xiong.chen@x.heywind.com')
+# time.sleep(1)
+# driver.find_element_by_xpath('//*[text()="Checkout"]').click()
+# time.sleep(2)
+# driver.find_element_by_xpath('//*[@id="Customer_Password"]').send_keys('heywind2020')
+# time.sleep(1)
+# driver.find_element_by_xpath('//*[@id="login_button"]').click()
+# time.sleep(2)
+# WebDriverWait(driver,20,2).until(lambda a:a.find_element_by_xpath('//*[@class="edit_shipping_address_wrap"][1]/div/p[1]/img')).click()
+# time.sleep(2)
+# driver.find_element_by_xpath('//*[@class="shipping_address_save"]').click()
 
 
 
